@@ -22,4 +22,17 @@ customers.push({
     email: "porkyjohn@gmail.com"
     purchases: "Napkins", "Plates", "Forks"
 })
-customers.shift
+customers.shift()
+
+customers[0].email = "4ktgoat@gmail.com";
+customers[1].purchases.push = ("Earbuds");
+
+console.log("Current Customers:")
+customers.forEach(customers => {
+    let totalnumberPurchases = customers.purchases.length;
+    let email = customers.email
+    let name = customers.name
+
+    console.log(`Customer Name: ${name}, Customer Email: ${email}, Total Amount Purchased: ${totalnumberPurchases}`)
+})
+
