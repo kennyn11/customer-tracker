@@ -1,31 +1,31 @@
 let customers = [
  {
-    name: "Kentrell Gaulden"
-    email: "4ktofficial@gmail.com"
-    purchases: "Headphones", "Microphone", "Laptop"
+    name: "Kentrell Gaulden",
+    email: "4ktofficial@gmail.com",
+    purchases: ["Headphones", "Microphone", "Laptop"]
 
  },
  {
-    name: "Kevin Durant"
-    email: "easymoneysniper@outlook.com"
-    purchases: "Basketball","Net", "Shirt"
+    name: "Kevin Durant",
+    email: "easymoneysniper@outlook.com",
+    purchases: ["Basketball","Net", "Shirt"]
 
  },
  {
-    name: "Tim Cheese"
-    email: "timthecheesiest@yahoo.com"
-    purchases: "Cheese", "Gloves", "Plastic Bowls"
+    name: "Tim Cheese",
+    email: "timthecheesiest@yahoo.com",
+    purchases: ["Cheese", "Gloves", "Plastic Bowls"]
  }
 ]
 customers.push({
-    name: "John Pork"
-    email: "porkyjohn@gmail.com"
+    name: "John Pork",
+    email: "porkyjohn@gmail.com",
     purchases: "Napkins", "Plates", "Forks"
 })
 customers.shift()
 
 customers[0].email = "4ktgoat@gmail.com";
-customers[1].purchases.push = ("Earbuds");
+customers[1].purchases.push("Earbuds")
 
 console.log("Current Customers:")
 customers.forEach(customers => {
