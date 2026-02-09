@@ -20,11 +20,11 @@ let customers = [
 customers.push({
     name: "John Pork",
     email: "porkyjohn@gmail.com",
-    purchases: "Napkins", "Plates", "Forks"
+    purchases: ["Napkins", "Plates", "Forks"]
 })
 customers.shift()
 
-customers[0].email = "4ktgoat@gmail.com";
+customers[0].email = "easymoneysniper@outlook.com";
 customers[1].purchases.push("Earbuds")
 
 console.log("Current Customers:")
